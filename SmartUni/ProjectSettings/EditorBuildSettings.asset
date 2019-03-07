@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Campus.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9dfb27ceef5e17f4d9b95c46b9921535
+  - enabled: 1
+    path: Assets/Scenes/ARCamera.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Campus.unity
     guid: 9c7a49a2d3393b5478545510a59695db
   m_configObjects: {}

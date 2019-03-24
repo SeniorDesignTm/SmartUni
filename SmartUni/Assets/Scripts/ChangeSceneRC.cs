@@ -19,4 +19,9 @@ public class ChangeSceneRC : MonoBehaviour {
     {
         SceneManager.LoadScene("Campus");
     }
+
+    public void QRCam()
+    {
+        SceneManager.LoadScene("QRCam");
+    }
 }

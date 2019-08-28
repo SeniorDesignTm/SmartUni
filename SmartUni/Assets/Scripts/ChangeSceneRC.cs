@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSceneRC : MonoBehaviour {
 
+    void Start()
+    {
+        Screen.fullScreen = false;
+    }
+
     public void mainmenu()
     {
         SceneManager.LoadScene ("MainMenu");

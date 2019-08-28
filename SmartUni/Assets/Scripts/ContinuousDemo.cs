@@ -10,6 +10,7 @@ public class ContinuousDemo : MonoBehaviour {
 
 	private IScanner BarcodeScanner;
 	public Text TextHeader;
+    public Text url;
 	public RawImage Image;
 	public AudioSource Audio;
 	private float RestartTime;
@@ -53,7 +54,8 @@ public class ContinuousDemo : MonoBehaviour {
 			{
 				TextHeader.text = "";
 			}
-			TextHeader.text += "Found: " + barCodeType + " / " + barCodeValue + "\n";
+			TextHeader.text += "Found: " + barCodeValue + "\n";
+            url.text = barCodeValue;
 			RestartTime += Time.realtimeSinceStartup + 1f;
 
 			// Feedback

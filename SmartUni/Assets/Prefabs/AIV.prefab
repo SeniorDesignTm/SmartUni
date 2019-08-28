@@ -103,7 +103,7 @@ MonoBehaviour:
   - {fileID: 32900000, guid: ca02526bb370ab84daca8a7c28e52c61, type: 3}
   - {fileID: 32900000, guid: ca02526bb370ab84daca8a7c28e52c61, type: 3}
   - {fileID: 32900000, guid: 339fb74444a334e439444965c628e51e, type: 3}
-  - {fileID: 32900000, guid: addfdec9c992c334bbcea89364a2d232, type: 3}
+  - {fileID: 32900000, guid: 339fb74444a334e439444965c628e51e, type: 3}
 --- !u!328 &328344614360896528
 VideoPlayer:
   m_ObjectHideFlags: 1

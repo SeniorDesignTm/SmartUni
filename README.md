@@ -11,3 +11,6 @@ This repository  contains the third part of the project i.e. it contains the fol
 3. AR Camera
 
 These modules are merged within one app that is created using Unity Engine.
+
+A demo video:
+https://youtu.be/xQP_VOmahIo
